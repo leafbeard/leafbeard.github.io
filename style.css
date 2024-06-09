@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;800&display=swap');
+
+/* Pen-specific styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.4rem;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight:400;
+  line-height: 150%;
+}
+
+section {
+  color: #fff;
+  text-align: center;
+}
+
+div {
+  height: 100%;
+}
+
+article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+
+h1, h1 a:link {
+  font-size: 3.3rem;
+  font-weight:400;
+  margin: 1.75rem 0 1.75rem 0;
+  text-transform:none;
+  text-decoration:none;
+}
+
+/* Pattern styles */
+.container {
+  display: table;
+  width: 100%;
+}
+
+.left-half {
+  background-color: #ffffff;
+  color:#767676;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.left-half a:link{
+  color:#000;
+}
+
+.left-half a:hover{
+  color:#000;
+  text-decoration:underline;
+  text-underline-offset: 0.2em;
+}
+
+.left-half a:visited{
+  color:#000;
+}
+
+.right-half {
+  background-color: #ffffff;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
